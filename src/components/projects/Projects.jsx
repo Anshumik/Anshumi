@@ -22,7 +22,6 @@ const items = [
         title: "Internship at Aim Infcorp",
         img:"./internship.png",
         desc: "Designed a Flutter-based inventory management application in Dart, catering to small-scale businessmen for efficient inventory control.Account login and management functionalities with various banking system-related features.Integrating banking system features and leveraging the Flutter charts library for streamlined business operations.Implemented a Monthly Profit and Loss Analysis. component providing users with valuable insights into their business financials."
-        source_link : ""
     },
 ];
 
