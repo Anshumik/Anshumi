@@ -1,0 +1,54 @@
+.services{
+    background: linear-gradient(180deg, #0c0c1d, #111132);
+    background-image: url("./stars.png");
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+    .textContainer{
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tileContainer{
+        height: 90%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+
+        .tileBox{
+
+            margin-top: 0%;
+            padding: 50px;
+            border: 0.5px solid gray;
+            border-radius: 20%;
+            font-size: 60px;
+            font: sans-serif;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: space-between;
+            font-family: "DM Sans" , sans-serif;
+            
+
+            
+        }
+        .hover-text {
+            color: white; // Initial text color
+          
+            &:hover {
+              color: orange;
+              font-weight: 50%; // Color to be applied on hover
+            }
+          }
+
+    }
+}

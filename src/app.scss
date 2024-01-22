@@ -1,0 +1,30 @@
+html{
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    //padding and border are included within the width.
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+section{
+    height : 100vh;
+    width: 100vw;
+    //the scrolling  will stop at center
+    scroll-snap-align: center;
+    overflow: hidden;
+}
+
+body{
+    background-color: #0c0c1d;
+    color: lightgray;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
